@@ -40,4 +40,6 @@ jarsigner -verbose -keystore demo.jks -signedjar Test2s.apk Test2.apk demo
 adb install -r Test2s.apk
 
 #### 插件升级
-这里由于软件中的Apktool的版本太低可能导致apk的反编译失败，因此需要到Apktool官网去下载最新版本的Apktool，官网地址：https://ibotpeaches.github.io/Apktool/，下载完成后找到解压好的AndroidKiller目录下的bin\apktool\apktool目录将下载的最新版的apktool复制粘贴进去，然后修改AndroidKiller根目录下的bin\apktool下的apktool.bat和apktool.ini文件。
+这里由于软件中的Apktool的版本太低可能导致apk的反编译失败，因此需要到Apktool官网去下载最新版本的Apktool
+官网地址：https://ibotpeaches.github.io/Apktool
+下载完成后找到解压好的AndroidKiller目录下的bin\apktool\apktool目录将下载的最新版的apktool复制粘贴进去，然后修改AndroidKiller根目录下的bin\apktool下的apktool.bat和apktool.ini文件。
